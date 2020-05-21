@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit
 open class HttpMethods {
     private val retrofit: Retrofit
     private val api: ApiService
-    private val baseUrl = "http://demo7261611.mockable.io/"
+    private val baseUrl = "http://demo7261611.mockable.io/" // 以失效
 
     init {
         val httpclient = OkHttpClient.Builder()
